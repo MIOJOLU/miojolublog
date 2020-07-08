@@ -1,2 +1,1 @@
-#blog.html
 # miojolublog
