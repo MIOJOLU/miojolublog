@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Meddon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@font-face {
+     font-family: Selima;
+     src: url(../fontes/Selima\ .ttf); 
+}
+
+body,nav{
+    font-family: 'Raleway', sans-serif;
+}
+h4{
+  font-family: Selima;
+}
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+
+  
+ul,li{
+    list-style: none;
+  }
+.titulo2{
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 5vh;
+  color: #35ccc7;
+}
+
+.navbar{
+    background-color: rgba(255,214,50,0.9);
+    font-family: 'Raleway';
+    font-size: large;
+  }
+
+  .nav-item{
+    vertical-align: middle;
+  }
+
+  .fa-bars{
+    color: black !important;
+    font-size: 30px;
+  }
+.materias-imagens2{
+  max-width: 100%;
+}
+.materia{
+  font-size: 10vh;
+}
+.titulo3{
+  text-align: center;
+  padding-top: 30px;
+}
+.corpo1{
+  text-align: justify;
+}
+.plataformas{
+  text-align: end;
+  font-size: 2.5rem;
+  color: #ff5757;
+}
+.scratch{
+  text-align: end;
+}
+.slnova{
+  text-align:start;
+  vertical-align: middle;
+}
+.slnova-titulo{
+  padding-top: 3rem;
+}
+.imgScratch, .imgSlnova{
+  max-width: 100%;
+}
+.imgSlnova{
+  float: right;
+}
+.titulo4{
+  padding-top: 2rem;
+  font-size: 3rem;
+  color: #7dd957;
+  text-align: end;
+}
+.titulo5{
+  text-align: end;
+}
+.projetoScratch{
+  text-align: justify;
+}
+.titulo5Etexto{
+  vertical-align: center;
+}
+.img-scratch-print{
+  display: flex;
+  max-width: 100%;
+  border-radius: 100%;
+  border-color: #7dd957;
+  border-style: solid;
+  border-width: 5px;;
+}
+a:link {
+  text-decoration: none;
+ };
+ 
+ a:hover {
+  text-decoration: underline;
+  color: #ff5757;
+ }
+.titulo5Etexto a{
+  text-decoration:none;
+}
+.slnova-projeto a{
+  text-decoration:none;
+}
+.youtube1EMBED{
+  width: 1100px;
+  height: 720px;
+}
+.arduino{
+  width: 720px;
+  height: 553px;
+}
+.risco{
+  margin-top: 0; 
+  padding-top: 0; 
+  width: 60vh;
+  color:#ffde59;
+  background-color: #ffde59;
+  height: 1px;
+}
+.contato{
+  max-width: 100%;
+}
+.titulo6{
+  font-family: Selima;
+  font-size: 6rem;
+  text-align: center;
+}
+/*@mixin for-phone-only {*/
+
+  @media (max-width: 599px) { 
+    .slnovaEMBED{
+      display: none;
+    }
+    .youtube1EMBED{
+      width: 360px;
+      height: 239px;
+    }
+    .arduino{
+      width: 360px;
+    height: 239px;
+    }
+    .risco{
+      width: 30vh;
+    }
+  }
+
+
+/*@mixin for-tablet-portrait-up */
+
+  @media (min-width: 600px) and (max-width: 800px){
+    .slnovaEMBED{
+      display: none;
+    }
+    .youtube1EMBED{
+      width: 720px;
+      height: 360px;
+    }
+    .arduino{
+    width: 360px;
+    height: 239px;
+    }
+    .risco{
+      width: 30vh;
+    }
+   }
+
+
+
