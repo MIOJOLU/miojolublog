@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Meddon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+body{
+  font-family: 'Raleway', sans-serif;
+}
+html,
+body,
+header,
+.view {
+  height: 100vh;
+}
+.menu li,a{
+    color: black !important;
+}
+
+.logoetitulo{
+  padding-top: 0;
+}
+ul,li{
+  list-style: none;
+ 
+}
+.quiz{
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 5vh;
+  color: #35ccc7;
+  padding-top: 5vh;
+}
+
+.data
+{
+  text-align: end;
+}
+
+.texto_um
+{
+  text-align: justify;
+}
+.titulo1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 5vh;
+  color: #35ccc7;
+  padding-top: 5vh;
+}
+#sobre_imagem{
+  vertical-align: middle;
+  float: left;
+  max-width:100%;
+  display: grid;
+}
+.sobre{
+  margin-top: 0rem;
+}
+.sobre > p{
+  text-align: justify;
+}
+
+
+.fa {
+  
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+ 
+}
+
+#sobre_imagem-mobile{
+  display: none;
+}
+
+.navbar{
+  background-color: rgba(255,214,50,0.9);
+  font-family: 'Raleway';
+  font-size: large;
+}
+.nav-item{
+  vertical-align: middle;
+}
+
+.fa-bars{
+  color: black !important;
+  font-size: 30px;
+}
+
+@media (max-width: 786px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+
+@media (max-width: 991px) {
+  #sobre_imagem{
+    display: none;
+  }
+}
+
+
+h5 {
+  letter-spacing: 3px;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+body i{
+    color: black !important;
+    
+}
+#menu li
+{
+  font-size: 20px;
+}
+header .textoinicial
+{
+    padding-top: 520px;
+    color: blanchedalmond;
+    font-weight: lighter;
+}
